@@ -1,12 +1,14 @@
-# Ödev 3: Asian Kitchen's Menu
+# Asian Kitchen's Menu
 
-Bu proje, JavaScript ile dinamik menü filtreleme yapan bir "Asian Kitchen's Menu" sayfasıdır.
-
-## Kullanılan Array Metodları
-
-- **reduce:** `menu` dizisinden benzersiz kategorileri (`Korea`, `Japan`, `China`) çıkarmak için kullanıldı. Böylece butonlar veriye göre otomatik oluşturulur.
-- **map:** Hem filtre butonlarını oluşturmak hem de menü öğelerini HTML’e çevirip listeyi güncellemek için kullanıldı.
+JavaScript ile kategorilere göre filtrelenebilen uzak doğu restoran menüsü.
 
 ## Çalıştırma
 
-`index.html` dosyasını tarayıcıda açın. Butonlara tıklayarak menüyü "All", "Korea", "Japan", "China" kategorilerine göre filtreleyebilirsiniz.
+`index.html` dosyasını tarayıcıda açın.
+
+## Dosya yapısı
+
+- `index.html` — Sayfa yapısı
+- `style.css` — Stiller
+- `app.js` — Menü verisi, butonlar ve filtreleme (map, reduce)
+- `ODEV3-ACIKLAMA.md` — Ödev açıklaması
